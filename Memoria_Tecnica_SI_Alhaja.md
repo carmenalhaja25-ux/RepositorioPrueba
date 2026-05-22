@@ -64,3 +64,8 @@ Además, la portabilidad que ofrece Docker garantiza que el tiempo de recuperaci
 
 <img width="1342" height="382" alt="Captura de pantalla 2026-05-22 095935" src="https://github.com/user-attachments/assets/11b51666-a5f6-4099-b3fb-6b2770e4c388" />
 
+# 3. Estrategia de Despliegue y Comunicación.
+
+Para trasladar la aplicación desde el Entorno de Desarrollo local hacia el servidor de producción, se implementará un flujo de despliegue automatizado basado en SFTP. Descartamos la opción de FTP tradicional porque es mas vulnerable al transmitir ciertos archivos y datos en texto plano. SFTP opera sobre el puerto seguro estándar 22, garantizando el cifrado de extremo a extremo y la autenticación mediante claves criptográficas SSH robustas, lo que blinda la infraestructura ante ataques de intercepción de tráfico.
+
+En cuanto a la comunicación del equipo y la gestión de incidencias operativas, se integrará un sistema de alertas automatizadas en un canal privado de Discord. Ante cualquier anomalia crítica como una caída del servidor o saturación de memoria, un script en producción enviará notificaciones instantáneas detallando el código de error y el estado del sistema, permitiendo una monitorización reactiva y una intervención inmediata frente a ellos. 
