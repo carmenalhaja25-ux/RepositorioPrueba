@@ -57,7 +57,10 @@ Además, la portabilidad que ofrece Docker garantiza que el tiempo de recuperaci
 3. **Cita siempre (IEEE)**. Si dices que el software libre es mejor, di quién lo apoya o en qué norma se basa.
 
 **Buenos ejemplos**:
-
 * Drake, J. M. (2008). **Análisis de requisitos y especificación de una aplicación** \[en línea\] Disponible en: https://www.ctr.unican.es/asignaturas/ingenieria\_software\_4\_f/doc/m3\_08\_especificacion-2011.pdf  
 * García Notario, D. (2015). **Análisis de requisitos en el desarrollo del software**  \[en línea\] Disponible en: https://e-archivo.uc3m.es/rest/api/core/bitstreams/a66b0a2d-fa7c-483f-ac5e-1476ff2da8eb/content
+
+# 2. Estimación de Costes de Infraestructura
+
+<img width="1342" height="382" alt="Captura de pantalla 2026-05-22 095935" src="https://github.com/user-attachments/assets/11b51666-a5f6-4099-b3fb-6b2770e4c388" />
 
